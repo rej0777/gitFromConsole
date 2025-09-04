@@ -31,7 +31,9 @@ $ git branch -a
 git rm saturn5.py //deleting git file
 git mv saturn5.py saturn55.py //rename file
 
-git create --all --message "tests git rm,mv and gt crereate --all"
-//this single command stages all files, creates a commit, and pushes a branch:
+git add .
+git commit -a -m "tests rm and mv commands"
+git push
 
-
+git commit -a -m "nesesery comit before checkout"
+git checkout sprint1
