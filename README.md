@@ -40,3 +40,6 @@ git checkout sprint1
 git merge main // pull all changes from main to sprint1
 
 git rm saturn9.py
+git add .
+git commit -a -m "commit in sprint1 "
+git push origin HEAD:sprint1
