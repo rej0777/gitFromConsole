@@ -39,7 +39,20 @@ git commit -a -m "nesesery comit before checkout"
 git checkout sprint1
 git merge main // pull all changes from main to sprint1
 
+git pusch --all origin
+
 git rm saturn9.py
 git add .
 git commit -a -m "commit in sprint1 "
 git push origin HEAD:sprint1
+
+///////////////
+git checout file_name// bfore pusch
+git diff --cached
+git restore --file name
+
+/////////////
+git log --oneline
+git reset --hard IDcommit
+///////////////////
+
