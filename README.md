@@ -37,3 +37,6 @@ git push
 
 git commit -a -m "nesesery comit before checkout"
 git checkout sprint1
+git merge main // pull all changes from main to sprint1
+
+git rm saturn9.py
